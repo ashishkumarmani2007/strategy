@@ -1,0 +1,202 @@
+{
+  "brand": {
+    "name": "Voice Secure",
+    "slogan": "Aawaj ki karo jaanch, apno pe na aane do koi aanch.",
+    "simulationBadge": "Simulation Prototype",
+    "simulationNote": "All detection scores and voice matches are scripted for demonstration. No real audio models run on this device.",
+    "pilotTarget": "Target: up to 85% less exposure to voice-scam risk, to be measured in our Bhopal pilot."
+  },
+  "nav": {
+    "demo": "Live Demo",
+    "howItWorks": "How it Works",
+    "privacy": "Privacy by Design",
+    "about": "About & Team",
+    "alerts": "Alerts Log"
+  },
+  "hero": {
+    "title": "Stop the cloned-voice call before the money moves.",
+    "subtitle": "Real-time AI anti-spoofing paired with family voiceprint verification, instant safe-word challenge, and automatic cooling-off payment locks.",
+    "ctaDemo": "Try the Pitch Demo",
+    "ctaHowItWorks": "Explore Architecture"
+  },
+  "threeSteps": {
+    "title": "How Voice Secure Protects in 3 Real-Time Steps",
+    "step1Title": "1. Detect",
+    "step1Desc": "Listens in 3-second sliding windows and computes an on-device acoustic risk score (0 to 1) for AI voice synthesis artifacts.",
+    "step2Title": "2. Verify Family",
+    "step2Desc": "Cross-references voice biometrics against consent-enrolled family voiceprints and checks caller ID against your trusted circle.",
+    "step3Title": "3. Act & Protect",
+    "step3Desc": "Instantly challenges with a confidential family safe word, enforces a UPI payment cooling lock, and broadcasts family alerts."
+  },
+  "comparison": {
+    "title": "What Makes Voice Secure Different",
+    "subtitle": "While competitors detect AI voice synthesis, only Voice Secure provides the essential family protection layer.",
+    "feature": "Protection Feature",
+    "vs": "Voice Secure",
+    "hiya": "Hiya AI Phone",
+    "omni": "OmniSpeech AI Detect",
+    "resemble": "Resemble AI",
+    "featRealtime": "Real-Time AI Voice Detection",
+    "featVoiceprint": "Consent-Enrolled Family Voiceprints",
+    "featSafeWord": "Interactive Family Safe Word Challenge",
+    "featFamilyAlert": "Instant Cross-Family Emergency Alerts",
+    "featPaymentLock": "Automatic UPI Cooling-Off Payment Lock",
+    "footnote": "Based on public product descriptions as of Oct 2026; check each vendor for current features."
+  },
+  "scenarios": {
+    "title": "Select Ideathon Pitch Scenario",
+    "hint": "Judges: Click any scenario below or press keys [1], [2], [3] to run immediate live detection.",
+    "real": {
+      "title": "Scenario 1: Real Call — Mom",
+      "desc": "Saved contact (+91 98260 12345). Voice matches enrolled voiceprint.",
+      "badge": "Safe"
+    },
+    "clone": {
+      "title": "Scenario 2: Cloned Voice — 'Rohan' Scam",
+      "desc": "Unknown number (+91 91234 56789). Fake emergency demanding ₹50,000.",
+      "badge": "Danger"
+    },
+    "unclear": {
+      "title": "Scenario 3: Unclear Call — Bad Line",
+      "desc": "New number (+91 98765 43210). Acoustic uncertainty triggers safe word.",
+      "badge": "Uncertain"
+    }
+  },
+  "callScreen": {
+    "incoming": "Incoming Call Screening...",
+    "active": "Call in Progress",
+    "demoSpeed": "Demo Speed (1.1s ≈ 3s Window)",
+    "riskScore": "AI Spoof Risk Score",
+    "familyMatch": "Family Voiceprint Match",
+    "targetThresholds": "Zones: Safe (<0.30) · Uncertain (0.30-0.70) · AI Alert (>0.70)",
+    "safeState": "Safe to talk. Voice and number match Mom.",
+    "dangerState": "This may be an AI-cloned voice! Emergency relative scam pattern detected.",
+    "uncertainState": "Verify before you trust. Acoustic score indeterminate.",
+    "hangUpAndCall": "Hang up and call Rohan back",
+    "trySendMoney": "Try to send ₹50,000 (Mock UPI)",
+    "simulatedCallBackSuccess": "Calling registered number (+91 94250 88990)... Rohan: 'Mummy, I am in college library. I never called you! I am fine.'",
+    "scamAvoided": "Scam Avoided! Family alert broadcasted.",
+    "safeWordPrompt": "Ask for Family Safe Word:",
+    "safeWordPlaceholder": "Enter secret word (Default: nimbu)",
+    "submitSafeWord": "Verify Safe Word",
+    "safeWordCorrect": "Verified by safe word! Voice confirmed safe.",
+    "safeWordIncorrect": "Wrong safe word! Call flagged as impersonation attack.",
+    "callBackDirect": "Call back on registered contact",
+    "endCall": "End Simulation"
+  },
+  "underTheHood": {
+    "title": "Under the Hood (Engine Telemetry)",
+    "badge": "Live On-Device Pipeline",
+    "step1": "Step 1: Sliding Acoustic Anti-Spoofing",
+    "step2": "Step 2: Speaker Voiceprint Matching",
+    "step3": "Step 3: Autonomous Defense Orchestration",
+    "telemetryChart": "Sliding Window Score Telemetry",
+    "windowNum": "Window",
+    "rawScore": "Raw Spoof",
+    "smoothed": "Smoothed MA-3",
+    "eventLogs": "System Event Audit Log",
+    "familyAlertPreview": "Family Circle Emergency Alert Broadcast",
+    "controls": "Demo Controls",
+    "replay": "Replay Scenario",
+    "reset": "Reset Clean State",
+    "speed": "Speed:",
+    "speedNormal": "Normal (1.1s)",
+    "speedFast": "Fast 2x (0.55s)",
+    "keyboardShortcuts": "Keys: [1] Mom · [2] Clone · [3] Unclear · [R] Reset"
+  },
+  "family": {
+    "title": "Family Protection Circle",
+    "subtitle": "Enrolled trusted voiceprints and emergency escalation contacts.",
+    "dpdpNote": "DPDP Act 2023 Consent-First Design Principle: Voiceprints are encrypted biometrics derived only with explicit consent and deletable at any time.",
+    "addMember": "Enrol New Family Member",
+    "enrolled": "Voiceprint Enrolled",
+    "pending": "Consent Pending",
+    "deleteMember": "Delete Profile",
+    "deleteAll": "Delete All Voiceprints",
+    "confirmDelete": "Are you sure you want to delete this voiceprint? All encrypted biometric embeddings will be wiped immediately from local storage.",
+    "confirmDeleteAll": "Are you sure you want to delete ALL family voiceprints? This action is irreversible.",
+    "step1Title": "1. Contact Information",
+    "step2Title": "2. Explicit Biometric Consent",
+    "step3Title": "3. Voice Enrollment (Simulated)",
+    "consentCheckbox": "I confirm that this person has given explicit informed consent to capture 3 voice samples solely for on-device family caller verification.",
+    "sendConsentSms": "Simulate sending consent link via SMS / WhatsApp",
+    "recordSample": "Record Phrase {n} of 3",
+    "phrase1": "\"Hello, this is my Voice Secure emergency enrollment sample.\"",
+    "phrase2": "\"I authorize my family circle to verify my voice in emergencies.\"",
+    "phrase3": "\"Voice Secure protects our family with on-device AI.\"",
+    "voiceprintSaved": "Voiceprint Encrypted & Saved (Simulated locally)",
+    "finish": "Complete Enrolment"
+  },
+  "paymentLock": {
+    "title": "Payment Cooling-Off Lock Active",
+    "badge": "Security Lockout",
+    "blockedMessage": "High-risk voice clone scam detected! Outbound payments to new and unverified payees have been temporarily locked to protect family funds.",
+    "countdownLabel": "Cooling-Off Lock Remaining:",
+    "unlockedAt": "Automatic unlock after verification period",
+    "dismiss": "Acknowledge Protection"
+  },
+  "mic": {
+    "title": "Live Microphone Acoustic Signal Test",
+    "subtitle": "Processes audio strictly inside your browser using the Web Audio API. Nothing is recorded or transmitted.",
+    "startButton": "Start Live Mic Check",
+    "stopButton": "Stop Microphone",
+    "volume": "Input RMS Level",
+    "speaking": "Voice Activity Detected",
+    "demoScore": "Simulated Demo Score (Not a real model)",
+    "disclaimer": "This utility demonstrates local audio signal acquisition and waveform rendering. Deepfake detection models require native ONNX execution."
+  },
+  "settings": {
+    "title": "Security & App Settings",
+    "safeWordLabel": "Family Confidential Safe Word",
+    "safeWordHint": "Default pitch demo word: nimbu. Choose a word known only to your family circle.",
+    "thresholdsLabel": "Acoustic Spoof Risk Thresholds (Read-only)",
+    "thresholdsDesc": "Zone <0.30: Likely Real · Zone 0.30-0.70: Uncertain (Safe Word Challenge) · Zone >0.70: AI Clone Alert",
+    "lockDurationLabel": "Payment Cooling-Off Duration",
+    "languageLabel": "Language / भाषा",
+    "reducedMotionLabel": "Reduce Motion",
+    "clearDataLabel": "Wipe Local Storage Data",
+    "clearDataButton": "Clear All Local Data",
+    "dataCleared": "All local settings and logs cleared."
+  },
+  "facts": {
+    "stripTitle": "Why Voice Secure: Grounded Reality in India",
+    "stripSubtitle": "Based on public government and cybersecurity research data.",
+    "sourceLink": "Source Report",
+    "indiaExposure": {
+      "label": "Adults Exposed in India",
+      "desc": "Experienced an AI voice scam or know someone in their close circle who did, nearly double the global rate."
+    },
+    "lossRate": {
+      "label": "Victims Suffered Financial Loss",
+      "desc": "Of individuals targeted by voice scams in India, over four-fifths suffered direct monetary loss."
+    },
+    "confusion": {
+      "label": "Cannot Distinguish AI Voice",
+      "desc": "Say they cannot reliably tell an AI-cloned voice apart from their real loved one over phone audio."
+    },
+    "totalLosses": {
+      "label": "Reported Cyber Fraud (2024)",
+      "desc": "Annual digital financial fraud reported through national portals across India."
+    },
+    "marketCeiling": {
+      "label": "Senior Smartphone Users",
+      "desc": "Total addressable demographic of older adults in India, representing a ₹1,830 Cr ceiling at ₹300/yr."
+    },
+    "urbanMarket": {
+      "label": "Reachable Urban Seniors",
+      "desc": "Immediate reachable urban elderly population (~₹530 Cr market ceiling)."
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "status": "Status",
+    "time": "Time",
+    "severity": "Severity"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D8CFF" />
+      <stop offset="100%" stop-color="#0B1B3A" />
+    </linearGradient>
+  </defs>
+  <!-- Shield Outline -->
+  <path d="M24 4L7 11V22C7 32.5 14.2 42.1 24 44.5C33.8 42.1 41 32.5 41 22V11L24 4Z" fill="url(#shieldGrad)" stroke="#2D8CFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Sound Wave Bars -->
+  <path d="M14 24V24.01" stroke="#3DDC97" stroke-width="3" stroke-linecap="round"/>
+  <path d="M19 19V29" stroke="#3DDC97" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 14V34" stroke="#3DDC97" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M29 19V29" stroke="#3DDC97" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 24V24.01" stroke="#3DDC97" stroke-width="3" stroke-linecap="round"/>
+</svg>

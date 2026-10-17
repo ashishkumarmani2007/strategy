@@ -1,0 +1,41 @@
+@import './styles/tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Accessible focus styling */
+  :focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 2px;
+  }
+}
+
+/* Glassmorphism and custom card styles */
+.vs-panel {
+  background-color: var(--panel);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+}
+
+.vs-card-glow {
+  box-shadow: 0 0 25px -5px rgba(45, 140, 255, 0.15);
+}
+
+.vs-coral-glow {
+  box-shadow: 0 0 30px -5px rgba(255, 107, 94, 0.3);
+}
+
+.vs-green-glow {
+  box-shadow: 0 0 30px -5px rgba(61, 220, 151, 0.25);
+}
+
+.vs-amber-glow {
+  box-shadow: 0 0 30px -5px rgba(255, 193, 77, 0.25);
+}
